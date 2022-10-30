@@ -19,7 +19,7 @@ I tried re-training the analytics and now it is giving me an error when I try an
 I attempt to log into the VM via RDP to see if it generates an alert.
 When I create the new workbook and enter the script to pull the data to the map, the option to edit the map isn’t popping up for me. I’m thinking I need to give it a little time to gather some new data. I will come back and check it tomorrow.
 
-__The next day
+_The next day
 
 AHH!! Success. When I selected my workbook in Sentinel the map editing options popped up right away, and voila! My pretty map is displaying. It does limit me to 15 API calls a day, so the map is a bit underwhelming at the moment. [Here she is, large and in charge.](https://user-images.githubusercontent.com/113474900/198899244-55b87b39-90a5-4ac5-80f9-8611814d327e.jpg)
 
