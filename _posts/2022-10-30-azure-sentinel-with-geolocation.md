@@ -3,11 +3,13 @@
 
 ---
 
-### This is a header
+### Buckle up, here we go.
 
 I went through [this](https://youtu.be/RoZeVbbZ0o0) lab a few weeks back, but nothing seems to be coming up when I run the Failed RDP with GEO Location command. Hmm, something is up. Let’s try and figure this out. 
+
 First thing I want to double check is the settings are correct on my VM instance and to make sure that it is in fact accessible to the internet. 
 I created a firewall rule when launching the VM that allows all inbound connections. I double check that is correct under “Networking” in the honeypot VM. Looks good! 
+
 Alright, wait a minute. Clicking around in Azure I went into Sentinel and then clicked on the purple “Security” and after searching for “Security Event” and see over 38,000 events. Viola! Here is all my failed log in attempts. 38,000 is far more than zero. But where did I go wrong in the mapping of these events? Because when I use the custom Failed GEO Location search feature nothing is coming up. Something must have gone wrong when I “trained” the analytics with the log file. 
 I went diving back into my Custom logs in my log analytics workspace. It’s there. I remember that the file we pull the data from is on the VM, not on my own computer. I had created a text file in notepad when I first did the lab containing the failed log in data used to train the analytics with. 
 Let me try deleting it and starting this part again. 
