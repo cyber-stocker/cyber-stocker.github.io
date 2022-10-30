@@ -24,5 +24,5 @@ _The next day
 AHH!! Success. When I selected my workbook in Sentinel the map editing options popped up right away, and voila! My pretty map is displaying. It does limit me to 15 API calls a day, so the map is a bit underwhelming at the moment. [Here she is, large and in charge.](https://user-images.githubusercontent.com/113474900/198899244-55b87b39-90a5-4ac5-80f9-8611814d327e.jpg)
 
 
-In re-doing the project from scratch, I suspect where I went wrong was in entering my own API key to covert the IP address to logitude and latitude. I’m not sure if I didn’t enter it correctly, or I failed to save the PowerShell script after entering it in. In the end, I am glad I was ultimately able to complete the lab. 
+In re-doing the project from scratch, I suspect where I went wrong was in entering my own API key to covert the IP address to longitude and latitude. I’m not sure if I didn’t enter it correctly, or I failed to save the PowerShell script after entering it in. In the end, I am glad I was ultimately able to complete the lab. 
 
